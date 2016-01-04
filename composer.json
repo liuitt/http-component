@@ -1,0 +1,38 @@
+{
+  "name": "liuitt/http-component",
+  "description": "The Liuitt Framework's Http Component.",
+  "keywords": ["components", "liuitt"],
+  "license": "MIT",
+  "homepage": "http://liuitt.com",
+  "support": {
+    "issues": "https://github.com/liuitt/http-component/issues",
+    "source": "https://github.com/liuitt/http-component"
+  },
+  "authors": [
+    {
+      "name": "Gilberto Albino",
+      "email": "gilbertoalbino@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "ext-openssl": "*",
+    "ext-mcrypt": "*",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liuitt\\": "src/Liuitt"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "minimum-stability": "dev"
+}
+
